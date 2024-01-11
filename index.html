@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDos</title>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewpoint" content="width=1100" />
+  </head>
+  <body>
+    <div class="containe">
+      <div class="todo__header">
+        <div class="todo_title">
+          <p class="todo__title__title">What's up,</p>
+          <input
+            type="text"
+            class="todo__title__name__input"
+            placeholder="name"
+          />
+        </div>
+
+        <div class="todo__create">
+          <p class="todo_create__title title">CREATE A TODO</p>
+          <p class="todo_create__p subtitel">What's on your todo list?</p>
+          <input
+            type="text"
+            class="todo__create__input"
+            placeholder="e. g. get a milk"
+          />
+        </div>
+
+        <p class="todo__category__p subtitel">Pick a category</p>
+        <div class="todo__category">
+          <div class="todo__category__options">
+            <div class="todo__category__options option__busines">
+              <div class="checkbox__container checkbox__blue">
+                <h1 class="checkbox__check__mark hidden chekmark__blue">.</h1>
+              </div>
+              <p class="category__options__business">Business</p>
+            </div>
+
+            <div class="todo__category__options option_personal">
+              <div class="checkbox__container checkbox_pink">
+                <h1 class="checkbox__check__mark hidden chekmark__pink">.</h1>
+              </div>
+              <p class="category__options__personal">Personal</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn__add__todo">Add todo</button>
+
+        <p class="todo_list_title title">TODO LIST</p>
+        <div class="todo__list__container">
+          <!-- <div class="todo__list__items__container">
+            <div class="todo__item__business">
+              <div class="checkbox__container checkbox__blue">
+                <h1 class="checkbox__check__mark hidden chekmark__blue">.</h1>
+              </div>
+              <input type="text" class="todo__item__text__input" />
+              <div class="todo__btns__container">
+                <button class="todo__item__btn__edit">Edit</button>
+                <button class="todo__item__btn__delete">Delete</button>
+              </div>
+            </div>
+
+            <div class="todo__item__personal">
+              <div class="checkbox__container checkbox_pink">
+                <h1 class="checkbox__check__mark hidden chekmark__pink">.</h1>
+              </div>
+              <input type="text" class="todo__item__text__input" />
+              <div class="todo__btns__container">
+                <button class="todo__item__btn__edit">Edit</button>
+                <button class="todo__item__btn__delete">Delete</button>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./task.js"></script>
+  </body>
+</html>
