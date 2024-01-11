@@ -1,2 +1,2 @@
 # -neobis-front-todoList-
-simple todo list web-page
+This is a mini website for Todo task list
